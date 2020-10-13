@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ta.cnn">
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <application android:icon="@drawable/icon" android:label="一份礼物" android:largeHeap="true" android:name="com.androlua.LuaApplication" android:persistent="true" android:resizeableActivity="true" android:supportsPictureInPicture="true">
+        <meta-data android:name="android.max_aspect" android:value="4"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="插件9.0" android:name="com.androlua.Main" android:screenOrientation="user" android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.alp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.alp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="application/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="*/*"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.alp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+                <data android:mimeType="application/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="*/*"/>
+                <data android:pathPattern=".*\\.alp"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent222222"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="插件9.0" android:name="com.androlua.LuaActivity" android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme=""/>
+                <data android:host="com.andlua.ly"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:pathPattern=""/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+                <data android:pathPattern=""/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="text/*"/>
+                <data android:host="*"/>
+                <data android:pathPattern=""/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="text/*"/>
+                <data android:host="*"/>
+                <data android:pathPattern=""/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:documentLaunchMode="intoExisting" android:excludeFromRecents="false" android:label="一份礼物" android:name="com.androlua.LuaActivityX" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
+        <activity android:label="一份礼物" android:name="com.androlua.Welcome" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.branch.www.screencapture.ScreenCaptureActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:enabled="true" android:name="com.androlua.LuaService"/>
+        <service android:enabled="true" android:exported="true" android:label="一份礼物" android:name="com.androlua.LuaAccessibilityService" android:permission="">
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config"/>
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+                <category android:name="android.accessibilityservice.category.FEEDBACK_AUDIBLE"/>
+                <category android:name="android.accessibilityservice.category.FEEDBACK_HAPTIC"/>
+                <category android:name="android.accessibilityservice.category.FEEDBACK_SPOKEN"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.lc.nb" android:exported="false" android:grantUriPermissions="true" android:name="android.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@anim/abc_fade_out"/>
+        </provider>
+    </application>
+</manifest>

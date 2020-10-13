@@ -1,0 +1,36 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: op.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: com.lc.nb
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  com/j256/ormlite/android/LICENSE.txt: '8'
+  com/j256/ormlite/android/README.txt: '8'
+  com/j256/ormlite/core/LICENSE.txt: '8'
+  com/j256/ormlite/core/README.txt: '8'
+  com/sina/sso/RemoteSSO.aidl: '8'
+  com/sina/weibo/sdk/net/cacert_cn.cer: '8'
+  com/sina/weibo/sdk/net/cacert_com.cer: '8'
+  lua/import.lua: '8'
+  lua/loadbitmap.lua: '8'
+  lua/loadlayout.lua: '8'
+  lua/loadmenu.lua: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.4
+versionInfo:
+  versionCode: '9'
+  versionName: 凉城fork by Keven
